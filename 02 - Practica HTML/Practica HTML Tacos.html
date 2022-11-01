@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria Taco Taco</title>
+</head>
+<body>
+    <header>
+        <h1>Taqueria Taco Taco desde el año 2022</h1>
+    </header>
+
+    <section>
+
+        <img src="./taco taco.jpg" alt="Logo Taco Taco">
+
+        <h2>Menú</h2>
+        <h3>Tacos grandes</h3>
+        <p>Todos incluyen cebolla</p>
+        <ul>
+            <li>Bisteck..................... $30</li>  
+            <li>Chorizo..................... $30</li> 
+            <li>Chuleta..................... $30</li> 
+            <li>Pastor...................... $30</li> 
+            <li>Campechanos................. $30</li> 
+        </ul>
+
+        <h3>Tacos pequeños</h3>
+        <p>Incluyen cilantro</p>
+        <ul>
+            <li>Bisteck..................... $15</li>  
+            <li>Chorizo..................... $15</li> 
+            <li>Chuleta..................... $15</li> 
+            <li>Pastor...................... $15</li> 
+            <li>Campechanos................. $15</li> 
+        </ul>
+
+        <h3>Especiales</h3>
+        <p>Hazlo combo con añadiendo jugo por solo 30 pesos</p>
+        <dl>
+            <dt><b>Labrador</b>..................... $40</dt>
+            <dd>-Tortilla frita con salsa rellena de pollo desmenuzado</dd>
+            <dt><b>Husky</b>..................... $40</dt>
+            <dd>-Tortilla de harina con carne de res</dd>
+            <dt><b>Pug</b>..................... $40</dt>
+            <dd>-Tortilla de maiz con salsa verde y chicharron</dd>
+            <dt><b>Adoptado</b>..................... $40</dt>
+            <dd>-Tortilla de harina con trompo</dd>
+        </dl>
+    </section>
+<hr>
+
+    <section>
+
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/kAV9ftWA3xEN4oqZ8" target="_blank">Tenesee, USA</a></td>
+                <td>Lunes - Domingo 24 horas</td>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/1uLuhR8TGNdZ3xZS6" target="_blank">Cleveland, USA </a> </td>
+                <td>Lunes - Domingo - 5pm - 2am</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/JTohgYPFGr5cFdfc7" target="_blank">Ooltewah, USA </a> </td>
+                <td>Jueves - Domingo - 5pm - 3am</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aquí</h3>
+
+     <form action"">
+        <p>¿De que sucursal quieres?</p>
+        <select>
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <p>¿De que tacos quieres?</p>
+        <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+        <label for="Bisteck">Bisteck</label>
+        <input type="Number" id="BisteckNumber" name="BisteckNumber" placeholder="¿Cuantos Tacos?">
+        <br>
+        <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+        <label for="Chorizo">Chorizo</label>
+        <input type="Number" id="ChorizoNumber" name="ChorizoNumber" placeholder="¿Cuantos Tacos?">
+        <br>
+        <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+        <label for="Pastor">Pastor</label>
+        <input type="Number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuantos Tacos?">
+        <br>
+        <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+        <label for="Chuleta">Chuleta</label>
+        <input type="Number" id="ChuletaNumber" name="ChuletaNumber" placeholder="¿Cuantos Tacos?">
+        <br>
+        <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+        <label for="Campechano">Campechano</label>
+        <input type="Number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuantos Tacos?">
+        
+        <br><br>
+
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Cual es su nombre?">
+        
+        <br><br>
+
+        <label for="Telefono">Telefono:</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="Cual es su Telefono?">
+        </form>
+        
+        <br>
+
+        <label for="Direccion">Direccion:</label><br>
+        <input type="text" id="Direccion" name="Direccion" placeholder="Cual es su Direccion?">
+
+        <br><br><br>
+
+        <button type="submit">Enviar pedido</button>
+
+        <br><br>
+     </form>
+    </section>
+
+</body>
+</HTML>
